@@ -3,3 +3,10 @@ Build
 # fastlane
 Fastlane/report.xml
 Fastlane/test_output
+
+
+vendor/bundle
+.bundle
+
+
+.DS_Store
