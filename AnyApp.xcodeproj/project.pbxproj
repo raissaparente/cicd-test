@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,7 +32,15 @@
 		66FF154B28759933003595E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66FF155128759933003595E3 /* AnyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FF155528759933003595E3 /* AnyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyAppTests.swift; sourceTree = "<group>"; };
+		B6F977542E54A77300D24E93 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		B6F977562E54B71A00D24E93 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		B6F977572E54B83900D24E93 /* Scanfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Scanfile; sourceTree = "<group>"; };
+		B6F977582E54B88400D24E93 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B6F977512E54A49C00D24E93 /* .github */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = .github; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		66FF153E2875992F003595E3 /* Frameworks */ = {
@@ -55,9 +63,13 @@
 		66FF15382875992F003595E3 = {
 			isa = PBXGroup;
 			children = (
+				B6F977582E54B88400D24E93 /* .gitignore */,
+				B6F977552E54B6FE00D24E93 /* Fastlane */,
+				B6F977512E54A49C00D24E93 /* .github */,
 				66FF15432875992F003595E3 /* AnyApp */,
 				66FF155428759933003595E3 /* AnyAppTests */,
 				66FF15422875992F003595E3 /* Products */,
+				B6F977542E54A77300D24E93 /* Gemfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +107,15 @@
 				66FF155528759933003595E3 /* AnyAppTests.swift */,
 			);
 			path = AnyAppTests;
+			sourceTree = "<group>";
+		};
+		B6F977552E54B6FE00D24E93 /* Fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				B6F977572E54B83900D24E93 /* Scanfile */,
+				B6F977562E54B71A00D24E93 /* Fastfile */,
+			);
+			path = Fastlane;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
