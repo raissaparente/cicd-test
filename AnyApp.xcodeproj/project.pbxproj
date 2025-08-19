@@ -36,6 +36,7 @@
 		B6F977562E54B71A00D24E93 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
 		B6F977572E54B83900D24E93 /* Scanfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Scanfile; sourceTree = "<group>"; };
 		B6F977582E54B88400D24E93 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B6F977592E550B3900D24E93 /* .ruby-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".ruby-version"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -63,6 +64,7 @@
 		66FF15382875992F003595E3 = {
 			isa = PBXGroup;
 			children = (
+				B6F977592E550B3900D24E93 /* .ruby-version */,
 				B6F977582E54B88400D24E93 /* .gitignore */,
 				B6F977552E54B6FE00D24E93 /* Fastlane */,
 				B6F977512E54A49C00D24E93 /* .github */,
